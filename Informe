@@ -1,0 +1,17 @@
+
+    #El programa se inicia con un menú con las  opciones de iniciar sesión y registrarse, lo cual deberán hacer
+# utilizando su CUIL y teléfono. El menú contiene una función que valida la opción que se elija en registrarse/iniciar sesión.
+# Si el usuario elige salir, antes se confirma si esa es su elección. #Si elige que no  está  seguro de Salir,
+# se vuelve a ver por pantalla el menú principal (registrarse/iniciar sesión).
+
+    #Los usuarios los organizamos en listas, y tienen la función de enviar solicitud, aceptar/rechazarla y al llegar a
+#5 rechazadas son bloqueados automáticamente. Estos usuarios bloqueados son organizados en una nueva lista.
+
+    # En la clase Ciudadano, tenemos un método que comprueba que, al iniciar sesión, el usuario ya haya sido creado.El
+# ciudadano tiene la función de reportar un evento, utilizando su ubicación y tipo de evento.
+#Los eventos que son creados por los administradores  especificando ubicación y tipo, y se genera un código automático
+# específico para cada evento. Utilizando este código, los administradores pueden dar de baja un evento en específico.
+
+    #Organizamos a los administradores en listas, utilizando cuil y teléfono. Si se repite el cuil de algún administrador,
+# este mismo es eliminado. Los administradores tienen la opción de bloquear a los ciudadanos organizándolos en
+# una nueva lista.
